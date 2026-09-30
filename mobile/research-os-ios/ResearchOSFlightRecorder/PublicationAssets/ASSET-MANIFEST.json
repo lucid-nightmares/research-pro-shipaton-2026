@@ -1,0 +1,23 @@
+{
+  "checkedUTC": "2026-09-24",
+  "citeprocPackageVersion": "2.4.63",
+  "citeprocTarballURL": "https://registry.npmjs.org/citeproc/-/citeproc-2.4.63.tgz",
+  "citeprocTarballSHA256": "7f2b7714bfd1f4480aad9c34972eb5d48dc1b85876ba21b5aa9aee74156e2ccf",
+  "gitRevisions": {
+    "styles": "8947960dc3c5133a873d77342c77c67300a2bc18",
+    "locales": "a89adece41013402236e2c9020972d7e931fbab8"
+  },
+  "assets": {
+    "CITEPROC-AGPLv3.txt": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+    "CITEPROC-CPAL.txt": "a953615139d8c767eb5e95f14215bf5c356ea23397a15137f6e119babf3fe69b",
+    "CITEPROC-LICENSE.txt": "b96ca8e1716f93449b480083c7510c18d129fa9afa4644d62c6347c06177ce30",
+    "CITEPROC-README.rst": "4782578991e43a4d1644851363d00d700f6a8f504a623c55ec008c1d2ea6c7b0",
+    "CSL-LOCALES-NOTICE.md": "f8e1b34d3e1b66f101b45bc45e5fca0397aa923fe4abeab6f98139c8f731c320",
+    "CSL-STYLES-NOTICE.md": "eeda35e6ab1c71ef74ba98e8d63f3f5c07e1b1c458b92d54cdd7515afcb1b04e",
+    "apa.csl": "1ece4fb3c295e66d04b4394e295aa58a87741ceeef1658192437eb9953c2f13e",
+    "citeproc-2.4.63.js": "55abba1a8b8b48c14323fd053f9646013b4b7a0c977938064ecf5195a502b9f1",
+    "locales-en-US.xml": "ac864c7c21166b4390d82c31792cdc509400727fa0060b43d8aa17e07f9cb079",
+    "plos.csl": "9e4e46b754097ccc48377aeeeccf28e1d58c3fac169a46cbc7ef8a5fad97c35f"
+  },
+  "licenseTextRepositoryRevision": "cc9153c45293af878de08cafddbefe6ea150c380"
+}

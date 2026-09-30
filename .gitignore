@@ -1,0 +1,10 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+
+mobile/research-os-ios/build/
+mobile/research-os-ios/ResearchOSFlightRecorder.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+
+mobile/research-os-ios/Config/LocalSecrets.xcconfig

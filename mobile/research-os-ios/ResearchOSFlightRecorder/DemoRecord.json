@@ -1,0 +1,192 @@
+{
+  "ai_checks": [
+    {
+      "id": "AI-RT-01",
+      "proposal": "Ask whether taking one algebra set first could change the second score, independent of music.",
+      "title": "Check the order effect",
+      "why_review": "A paired design still needs order and carryover controls."
+    },
+    {
+      "id": "AI-RT-02",
+      "proposal": "Verify that quiet-condition and music-condition items have comparable difficulty before interpreting the difference.",
+      "title": "Check whether the algebra sets match",
+      "why_review": "Unequal item difficulty could create the apparent accuracy gap."
+    },
+    {
+      "id": "AI-RT-03",
+      "proposal": "Keep the 4.2 percentage-point difference descriptive rather than translating it into effectiveness or causality.",
+      "title": "Keep the wording bounded",
+      "why_review": "A small descriptive sample difference does not establish a general effect."
+    }
+  ],
+  "capsule": {
+    "contents": [
+      "Research question",
+      "Twelve invented paired observations",
+      "Journey replay",
+      "Drift alarm",
+      "Human repair decision",
+      "Limitations"
+    ],
+    "evidence_summary": "Twelve invented student IDs have paired scores: 78 of 120 correct in quiet and 83 of 120 with instrumental music.",
+    "id": "CAP-SYN-IOS-001",
+    "limitations": [
+      "No real students, class, school, audio, consent process, or experiment exists.",
+      "The 4.2 percentage-point difference is descriptive and has no significance or causal interpretation.",
+      "Order effects, item equivalence, prior ability, and classroom conditions are not established.",
+      "AI proposals are review prompts, not evidence."
+    ],
+    "title": "Music and algebra accuracy — synthetic review capsule"
+  },
+  "classification": "SYNTHETIC_DEMO_ONLY",
+  "dataset": {
+    "rows": [
+      {"id":"A-01","music_correct":8,"order":"music_first","quiet_correct":7},
+      {"id":"A-02","music_correct":6,"order":"quiet_first","quiet_correct":6},
+      {"id":"A-03","music_correct":8,"order":"music_first","quiet_correct":8},
+      {"id":"A-04","music_correct":6,"order":"quiet_first","quiet_correct":5},
+      {"id":"A-05","music_correct":7,"order":"music_first","quiet_correct":7},
+      {"id":"A-06","music_correct":7,"order":"quiet_first","quiet_correct":6},
+      {"id":"A-07","music_correct":9,"order":"music_first","quiet_correct":9},
+      {"id":"A-08","music_correct":5,"order":"quiet_first","quiet_correct":5},
+      {"id":"A-09","music_correct":8,"order":"music_first","quiet_correct":8},
+      {"id":"A-10","music_correct":7,"order":"quiet_first","quiet_correct":6},
+      {"id":"A-11","music_correct":7,"order":"music_first","quiet_correct":7},
+      {"id":"A-12","music_correct":5,"order":"quiet_first","quiet_correct":4}
+    ],
+    "summary": {
+      "difference_percentage_points": 4.2,
+      "inference_notice": "Descriptive difference only. No significance, causal, population, or effectiveness conclusion is supported.",
+      "items_per_condition": 10,
+      "music_accuracy_percent": 69.2,
+      "music_correct_total": 83,
+      "quiet_accuracy_percent": 65.0,
+      "quiet_correct_total": 78,
+      "student_count": 12
+    }
+  },
+  "drift_alarm": {
+    "classification": "POST_RESULT_UNEXPLAINED_CHANGE",
+    "plain_reason": "The new wording claims improvement for all students. This invented one-class sample supports only a small descriptive difference.",
+    "severity": "High",
+    "status": "Human decision required",
+    "supported_claim": "In this synthetic class sample, algebra accuracy was slightly higher during the instrumental-music condition.",
+    "unsupported_claim": "Background music improves algebra performance for all students."
+  },
+  "journey": [
+    {
+      "actor": "Human",
+      "detail": "Local thought record created; no outcome, population, or causal status assigned.",
+      "id": "J-01",
+      "kind": "thought",
+      "result_first_known": false,
+      "summary": "A question about background instrumental music and algebra accuracy entered the record.",
+      "time": "15:00",
+      "title": "Thought captured"
+    },
+    {
+      "actor": "Human approved",
+      "detail": "Scope constrained to one class, one accuracy outcome, and an instrumental-music condition.",
+      "id": "J-02",
+      "kind": "decision",
+      "result_first_known": false,
+      "summary": "The idea became one question about algebra accuracy in one high-school class.",
+      "time": "15:04",
+      "title": "Question narrowed"
+    },
+    {
+      "actor": "Research OS",
+      "detail": "Two synthetic condition records and twelve paired score rows mounted with synthetic provenance labels.",
+      "id": "J-03",
+      "kind": "evidence",
+      "result_first_known": true,
+      "summary": "Twelve invented paired quiet and music-condition scores were added.",
+      "time": "15:10",
+      "title": "Synthetic observations attached"
+    },
+    {
+      "actor": "Human",
+      "detail": "A post-result protocol note was recorded without changing the observed score rows.",
+      "id": "J-04",
+      "kind": "protocol",
+      "result_first_known": false,
+      "summary": "A protocol note changed after the result became known.",
+      "time": "15:15",
+      "title": "Protocol change recorded"
+    },
+    {
+      "actor": "Research OS",
+      "detail": "Population, causal strength, and outcome semantics expanded without supporting lineage.",
+      "id": "J-05",
+      "kind": "contradiction",
+      "result_first_known": false,
+      "summary": "The draft changed a slight difference in one synthetic class into an improvement claim about all students.",
+      "time": "15:16",
+      "title": "Language drift found"
+    },
+    {
+      "actor": "Human approved",
+      "detail": "The sample-bounded sentence was recorded while preserving the superseded unsupported wording.",
+      "id": "J-06",
+      "kind": "repair",
+      "result_first_known": false,
+      "summary": "A person selected the narrower wording and the original remained in history.",
+      "time": "15:30",
+      "title": "Repair recorded"
+    },
+    {
+      "actor": "Human",
+      "detail": "The bounded claim was reviewed with its evidence and limitations attached.",
+      "id": "J-07",
+      "kind": "defense",
+      "result_first_known": false,
+      "summary": "The repaired claim was reviewed without expanding beyond the synthetic sample.",
+      "time": "15:35",
+      "title": "Bounded claim defended"
+    },
+    {
+      "actor": "Research OS",
+      "detail": "A deterministic capsule inventory and integrity digest were produced; no external publication occurred.",
+      "id": "J-08",
+      "kind": "publication",
+      "result_first_known": false,
+      "summary": "The question, observations, decision, and limitations were sealed into one local review record.",
+      "time": "15:40",
+      "title": "Integrity checked"
+    }
+  ],
+  "phrase_findings": [
+    {
+      "id": "PF-01",
+      "note": "A descriptive difference is not a causal estimate.",
+      "phrase": "improves",
+      "status": "CONTRADICTED"
+    },
+    {
+      "id": "PF-02",
+      "note": "One invented class cannot support this population claim.",
+      "phrase": "all students",
+      "status": "UNSUPPORTED"
+    },
+    {
+      "id": "PF-03",
+      "note": "Accuracy is the measured synthetic outcome.",
+      "phrase": "accuracy",
+      "status": "SUPPORTED"
+    }
+  ],
+  "project": {
+    "id": "synthetic-music-algebra-class",
+    "notice": "Invented one-class dataset for product demonstration. It is not research evidence and describes no real students.",
+    "question": "Does background instrumental music affect algebra accuracy for students in one high-school class?",
+    "title": "Synthetic study: background instrumental music and algebra accuracy"
+  },
+  "repair": {
+    "alternative": "The synthetic one-class difference suggests a question for a separately approved study; it does not establish that music improves performance.",
+    "before": "Background music improves algebra performance for all students.",
+    "id": "R-03",
+    "reason": "Both options remove the unsupported causal and all-students claims.",
+    "recommended": "In this synthetic class sample, algebra accuracy was slightly higher during the instrumental-music condition."
+  },
+  "schema_version": "research-os.ios.flight-record.v1"
+}

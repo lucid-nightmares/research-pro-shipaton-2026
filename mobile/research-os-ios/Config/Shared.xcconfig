@@ -1,0 +1,13 @@
+// Checked-in, non-secret build settings shared by every lane.
+RC_PUBLIC_SDK_KEY =
+RC_RELEASE_BUILD = NO
+RC_CUSTOMER_CENTER_REVIEWED = NO
+// Production purchasing remains unavailable until account-holder-approved legal
+// URLs and an explicit review flag are supplied in the ignored local settings.
+RC_TERMS_URL =
+RC_PRIVACY_URL =
+RC_LEGAL_LINKS_REVIEWED = NO
+
+// A local public SDK key is injected from the ignored file below.
+// The optional include keeps a fresh checkout inspectable before configuration.
+#include? "LocalSecrets.xcconfig"

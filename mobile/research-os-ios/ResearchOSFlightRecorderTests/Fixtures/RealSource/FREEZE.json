@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "frozen_at_utc": "2026-09-24T02:04:15.865128+00:00",
+  "policy": "Expected outputs frozen before product evaluation. Do not edit evaluation cases to improve reported outcomes. Revisions require a new fixture set version, retained prior set, and explanation. This set is small and AI-authored; it is not a representative scientific benchmark.",
+  "fixture_set": "kross2013-v1",
+  "files": [
+    {
+      "path": "fixtures/development.json",
+      "sha256": "ef98a0d9403188e4c3879959b1e9f9a19ba81a30217bfd6923280e657eaadc9b"
+    },
+    {
+      "path": "fixtures/evaluation.json",
+      "sha256": "b6138b91607615bbc95470305b12aee5fa1f3a4904c5de74c11d0066cf993999"
+    },
+    {
+      "path": "fixtures/locators.json",
+      "sha256": "92fbbe781928fa4249164e8c8099963d7b20e02b8047b28ec46727edc2e869b4"
+    },
+    {
+      "path": "fixtures/version-transition.json",
+      "sha256": "82041513173c82c806731363413ed7571c8a16c2c430e48c2b6f409af616dcbf"
+    },
+    {
+      "path": "sources/kross2013.pdf",
+      "sha256": "7ba9667c23217f8f2571181b40884ce2e3d6342613425b6232ad56ebbcfeea8d"
+    },
+    {
+      "path": "sources/kross2013.local-qa-v2.txt",
+      "sha256": "337023a6e0094aed621081c6e43d1020c8b5cf6af7d4ff8bc2c61136969a2b29"
+    }
+  ],
+  "product_evaluation_status_at_freeze": "NOT_RUN"
+}

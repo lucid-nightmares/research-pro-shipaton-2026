@@ -1,0 +1,8 @@
+{
+  "schema": "research-os-independent-legacy-test-fixture/1",
+  "source": "outputs/deliverables/Research-OS-Next-Candidate/real-source/ui-exports/research-archive.json",
+  "sourceCommit": "c070801bd0649d615bf424705c73ce9a1da21f39",
+  "sha256": "f8c4da7c5f31b399ded1789b86b6556a681000adbaad3c675c8c131816ef4e28",
+  "bytes": 231101,
+  "operation": "byte-for-byte copy; no rewrite; existing RealSource freeze not modified"
+}

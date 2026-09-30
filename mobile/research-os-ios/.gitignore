@@ -1,0 +1,17 @@
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.mobileprovision
+*.p12
+*.p8
+*.cer
+*.key
+*.pem
+xcuserdata/
+*.xcuserstate
+.DS_Store
+Config/LocalSecrets.xcconfig
+Config/ReleaseEvidence/*
+!Config/ReleaseEvidence/README.md

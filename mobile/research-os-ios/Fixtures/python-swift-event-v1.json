@@ -1,0 +1,183 @@
+{
+  "fixture_schema": "research-os.python-swift-golden.v1",
+  "python_contract": "challa.os2.contracts.canonical_json/digest_json",
+  "previous_chain_digest": "0000000000000000000000000000000000000000000000000000000000000000",
+  "payload_digest": "b964c91e58a857e625bec992e1e025cadc90ef21910a115f884f890e9c030c5b",
+  "chain_digest": "249d42e6b3d117109a683c48c6d52e533cd8c123544372adfd77f60664a78cfb",
+  "archive_digest": "a83e768a09cea790dbc58219f672084bc99e958ccdce75edaa969ed77f483942",
+  "payload": {
+    "classification": "SYNTHETIC_DEMO_ONLY",
+    "mutations": [
+      {
+        "depends_on": [],
+        "operation": "put",
+        "ref": {
+          "logical_id": "claim-1",
+          "object_type": "claim",
+          "project_id": "project-golden",
+          "version": 1
+        },
+        "value": {
+          "scope": "synthetic class sample",
+          "text": "Observed 83 of 120 with music and 78 of 120 in quiet."
+        }
+      }
+    ],
+    "proposal_only": false,
+    "workflow_stage": "REVIEW"
+  },
+  "event_material": {
+    "actor_ref": "human:local",
+    "authority_ref": "role:owner",
+    "branch_id": "main",
+    "cause_refs": [],
+    "event_id": "event-golden-1",
+    "idempotency_key": "golden-claim-review-1",
+    "kind": "claim.reviewed",
+    "object_refs": [
+      {
+        "logical_id": "claim-1",
+        "object_type": "claim",
+        "project_id": "project-golden",
+        "version": 1
+      }
+    ],
+    "occurred_at": "2026-08-18T12:00:00Z",
+    "origin": "local",
+    "parent_event_ids": [],
+    "payload": {
+      "classification": "SYNTHETIC_DEMO_ONLY",
+      "mutations": [
+        {
+          "depends_on": [],
+          "operation": "put",
+          "ref": {
+            "logical_id": "claim-1",
+            "object_type": "claim",
+            "project_id": "project-golden",
+            "version": 1
+          },
+          "value": {
+            "scope": "synthetic class sample",
+            "text": "Observed 83 of 120 with music and 78 of 120 in quiet."
+          }
+        }
+      ],
+      "proposal_only": false,
+      "workflow_stage": "REVIEW"
+    },
+    "payload_digest": "b964c91e58a857e625bec992e1e025cadc90ef21910a115f884f890e9c030c5b",
+    "prior_project_digest": "0000000000000000000000000000000000000000000000000000000000000000",
+    "project_id": "project-golden",
+    "result_project_digest": "1111111111111111111111111111111111111111111111111111111111111111",
+    "schema_id": "com.challa.research-os.event",
+    "schema_version": 1,
+    "sequence": 1
+  },
+  "envelope": {
+    "actor_ref": "human:local",
+    "authority_ref": "role:owner",
+    "branch_id": "main",
+    "cause_refs": [],
+    "chain_digest": "249d42e6b3d117109a683c48c6d52e533cd8c123544372adfd77f60664a78cfb",
+    "event_id": "event-golden-1",
+    "idempotency_key": "golden-claim-review-1",
+    "kind": "claim.reviewed",
+    "object_refs": [
+      {
+        "logical_id": "claim-1",
+        "object_type": "claim",
+        "project_id": "project-golden",
+        "version": 1
+      }
+    ],
+    "occurred_at": "2026-08-18T12:00:00Z",
+    "origin": "local",
+    "parent_event_ids": [],
+    "payload": {
+      "classification": "SYNTHETIC_DEMO_ONLY",
+      "mutations": [
+        {
+          "depends_on": [],
+          "operation": "put",
+          "ref": {
+            "logical_id": "claim-1",
+            "object_type": "claim",
+            "project_id": "project-golden",
+            "version": 1
+          },
+          "value": {
+            "scope": "synthetic class sample",
+            "text": "Observed 83 of 120 with music and 78 of 120 in quiet."
+          }
+        }
+      ],
+      "proposal_only": false,
+      "workflow_stage": "REVIEW"
+    },
+    "payload_digest": "b964c91e58a857e625bec992e1e025cadc90ef21910a115f884f890e9c030c5b",
+    "prior_project_digest": "0000000000000000000000000000000000000000000000000000000000000000",
+    "project_id": "project-golden",
+    "result_project_digest": "1111111111111111111111111111111111111111111111111111111111111111",
+    "schema_id": "com.challa.research-os.event",
+    "schema_version": 1,
+    "sequence": 1
+  },
+  "archive": {
+    "events": [
+      {
+        "actor_ref": "human:local",
+        "authority_ref": "role:owner",
+        "branch_id": "main",
+        "cause_refs": [],
+        "chain_digest": "249d42e6b3d117109a683c48c6d52e533cd8c123544372adfd77f60664a78cfb",
+        "event_id": "event-golden-1",
+        "idempotency_key": "golden-claim-review-1",
+        "kind": "claim.reviewed",
+        "object_refs": [
+          {
+            "logical_id": "claim-1",
+            "object_type": "claim",
+            "project_id": "project-golden",
+            "version": 1
+          }
+        ],
+        "occurred_at": "2026-08-18T12:00:00Z",
+        "origin": "local",
+        "parent_event_ids": [],
+        "payload": {
+          "classification": "SYNTHETIC_DEMO_ONLY",
+          "mutations": [
+            {
+              "depends_on": [],
+              "operation": "put",
+              "ref": {
+                "logical_id": "claim-1",
+                "object_type": "claim",
+                "project_id": "project-golden",
+                "version": 1
+              },
+              "value": {
+                "scope": "synthetic class sample",
+                "text": "Observed 83 of 120 with music and 78 of 120 in quiet."
+              }
+            }
+          ],
+          "proposal_only": false,
+          "workflow_stage": "REVIEW"
+        },
+        "payload_digest": "b964c91e58a857e625bec992e1e025cadc90ef21910a115f884f890e9c030c5b",
+        "prior_project_digest": "0000000000000000000000000000000000000000000000000000000000000000",
+        "project_id": "project-golden",
+        "result_project_digest": "1111111111111111111111111111111111111111111111111111111111111111",
+        "schema_id": "com.challa.research-os.event",
+        "schema_version": 1,
+        "sequence": 1
+      }
+    ],
+    "exported_head_digest": "249d42e6b3d117109a683c48c6d52e533cd8c123544372adfd77f60664a78cfb",
+    "project_id": "project-golden",
+    "schema_id": "com.challa.research-os.mobile.event-archive",
+    "schema_version": 1
+  }
+}

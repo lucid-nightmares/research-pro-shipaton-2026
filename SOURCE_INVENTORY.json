@@ -1,0 +1,626 @@
+{
+  "baseline_commit": "53e32f408d16c5cc6afa4d0230af76fd927853c9",
+  "baseline_archive_sha256": "12062645a5102de0688c7d2c0932eb9ec060c698bcd87abdd50c9f35b07fad36",
+  "copy_unchanged": [
+    {
+      "path": ".gitignore",
+      "bytes": 228,
+      "sha256": "a44352c447faf5fcdfc816cb37a98cc24fb844502162f0f65bf8089b7fd87a86"
+    },
+    {
+      "path": "challa/__init__.py",
+      "bytes": 23,
+      "sha256": "9767951df30d160e243e6897b464833d8b262c4e07f1fd77a333cfc404e44b9b"
+    },
+    {
+      "path": "challa/os2/__init__.py",
+      "bytes": 364,
+      "sha256": "fa009d64ca9e5d06f6bbb28a75fb1e9b06ebb9c78d7ea1c062c2bf1274780b71"
+    },
+    {
+      "path": "challa/os2/contracts.py",
+      "bytes": 7705,
+      "sha256": "e15d7789b7cd518eafa5579ba11bae8b95d7abfc5e0bff506ca6c515073e4e7d"
+    },
+    {
+      "path": "mobile/research-os-ios/.gitignore",
+      "bytes": 220,
+      "sha256": "95105d1c9db245923251133b72c40604b85d26a8060b099246f376dbb3acd0ee"
+    },
+    {
+      "path": "mobile/research-os-ios/Artwork/AppIcon.svg",
+      "bytes": 435,
+      "sha256": "d97433dbf84e769046013af03158b614756e99b256606da7a625cbb88708e5f5"
+    },
+    {
+      "path": "mobile/research-os-ios/Config/Debug-AppleSandbox.xcconfig",
+      "bytes": 79,
+      "sha256": "d6c7a17be2c51b66dca0489f99ef49889d657e3291d83bcde1c019caa709f1ca"
+    },
+    {
+      "path": "mobile/research-os-ios/Config/Debug-TestStore.xcconfig",
+      "bytes": 76,
+      "sha256": "c79d2e23c8c7756767787079b8c87d0d50fec4994775975b8a83d63cc2cb0544"
+    },
+    {
+      "path": "mobile/research-os-ios/Config/LocalSecrets.xcconfig.example",
+      "bytes": 1464,
+      "sha256": "b4ff6c6362c08359c70008d88f18fde01d599ae0e8dc3faaa8ddf79370bc8a08"
+    },
+    {
+      "path": "mobile/research-os-ios/Config/Release.xcconfig",
+      "bytes": 76,
+      "sha256": "f2faae6d9a49bd4625d33959333801333d657e47a3d77de03beca7dc94590174"
+    },
+    {
+      "path": "mobile/research-os-ios/Config/Shared.xcconfig",
+      "bytes": 543,
+      "sha256": "b34690d5fb1dbf302b5b9e72be62bf3e045bfc5f111591e6381aac281d6a9035"
+    },
+    {
+      "path": "mobile/research-os-ios/Fixtures/python-swift-event-v1.json",
+      "bytes": 6130,
+      "sha256": "5beea4640cb256183f0cb8827c29f792c7034ed865d83c3e202e2fd5d9c16e33"
+    },
+    {
+      "path": "mobile/research-os-ios/Open-in-Xcode.command",
+      "bytes": 446,
+      "sha256": "57149f24129fe152ae38e367b1a63406ed2a41070e472054dea9145d31a88de8"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder.xcodeproj/project.pbxproj",
+      "bytes": 48754,
+      "sha256": "6ffa4d9baf6e6079164fc9f725fb6f64c74834fb33d01b137331242a0ecd7e34"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved",
+      "bytes": 322,
+      "sha256": "9eacba4c816c96a4ac380631fba0055273c8d61a33e609d6d57adb9237f285b9"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder.xcodeproj/xcshareddata/xcschemes/ResearchOSFlightRecorder-AppleSandbox.xcscheme",
+      "bytes": 3116,
+      "sha256": "767243ae399869cf045e3d264098b58857a90dc495ad3e496bb720b4de221b15"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder.xcodeproj/xcshareddata/xcschemes/ResearchOSFlightRecorder.xcscheme",
+      "bytes": 3481,
+      "sha256": "938a66aba96d9e118f15f9ce8c539adc52eb030a5a390e9137e71b7a2673afeb"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder.xcodeproj/xcshareddata/xcschemes/ResearchPro-Shipaton-Demo.xcscheme",
+      "bytes": 3309,
+      "sha256": "47bd017e852ec4efd9b9d49fadf4c8b6ba3fb584d3e9120e74aedc2295c5b706"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder.xcodeproj/xcshareddata/xcschemes/ResearchPro-UITests.xcscheme",
+      "bytes": 2376,
+      "sha256": "6738674e555aa00e4f6553190f310a44a07412091716511c7a3295702a2add44"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/AppModel.swift",
+      "bytes": 15227,
+      "sha256": "a554369dc502cdc805a827b2fc0515b2088dbb04b123d03dbb1f9c456dc6054d"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/AppTheme.swift",
+      "bytes": 3230,
+      "sha256": "9a978929aa59492b7031758bd1617a0cffe82fbb9d4b09ab922b21cb37705001"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/Assets.xcassets/AccentColor.colorset/Contents.json",
+      "bytes": 690,
+      "sha256": "cdc0fc56db7b2f0cfef0fa0dc98ca848bb0bb912c1af6b05d81c510f30c91fde"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "bytes": 5798,
+      "sha256": "85b6742a0fa115d3c7a230f5678e349dc7c5b06e10c03ae269fe7b58dc306ee5"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "bytes": 216,
+      "sha256": "9cf2928dad89427abd581b6852db081352417f400afb65e60c479228cdc4f4da"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/Assets.xcassets/Contents.json",
+      "bytes": 63,
+      "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/Assets.xcassets/LaunchBackground.colorset/Contents.json",
+      "bytes": 667,
+      "sha256": "7f50f8d0c19178158f5dede8bcdbe56daf1f5f25e219a2dccc24b5716264dd56"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/CommercialCapabilityPolicy.swift",
+      "bytes": 2544,
+      "sha256": "48998c235ff65a2c2ca405413c9f4b0892eb273760a2d0d5cb134e6f38ee77c6"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/Core/CanonicalJSON.swift",
+      "bytes": 7577,
+      "sha256": "9a1f18d492c4900d982cae1ea0f11df7c04f23954c060420042030ebc866d03c"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/Core/INTEGRATION.md",
+      "bytes": 3236,
+      "sha256": "e48ad2f9b56f8319935400b88b635bf417f0d2f5f564de343f17a226aef6de25"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/Core/ResearchEventStore.swift",
+      "bytes": 42677,
+      "sha256": "25f4b2ec313d78dc7af8a2b4a589dd95f71876d8583ce102218a9579a1939071"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/Core/ResearchOSContracts.swift",
+      "bytes": 27254,
+      "sha256": "d46d9a2bf1dbf15aeec8451c40a89679de93460d8532c073523c854d0ff57e27"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/DemoRecord.json",
+      "bytes": 8351,
+      "sha256": "b65a2010fcc22fac1227ad1ac1a801948d9a20f58b48b5d3792bbb427e82242f"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/FlightRecord.swift",
+      "bytes": 6600,
+      "sha256": "f33997059b493d9a76dbedc6d400c125bb19a36a55aed4d2e223d98358bdb2a4"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/Info.plist",
+      "bytes": 2294,
+      "sha256": "b8a9f82830eecec8e9f570f6f2b8e2d058ac3e0b867792d0956e7fa00b0c8d64"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/LocalReviewView.swift",
+      "bytes": 7505,
+      "sha256": "459fa33c48a391cb89f88d5232b3bb6cf4c40edf17fcbbf6886fac2ed449aa68"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PrivacyInfo.xcprivacy",
+      "bytes": 975,
+      "sha256": "33ff87361a063ea2414c08ef2fa298f01d982c9dfc9e9f235fd086c827d23cd7"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationAssets/ASSET-MANIFEST.json",
+      "bytes": 1415,
+      "sha256": "982a9ebc634dcc1d4cdbaea689bd3c8b338a7f5c7d6eced83a6b9838c2aa2da7"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationAssets/CITEPROC-AGPLv3.txt",
+      "bytes": 34520,
+      "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationAssets/CITEPROC-CPAL.txt",
+      "bytes": 28740,
+      "sha256": "a953615139d8c767eb5e95f14215bf5c356ea23397a15137f6e119babf3fe69b"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationAssets/CITEPROC-LICENSE.txt",
+      "bytes": 1017,
+      "sha256": "b96ca8e1716f93449b480083c7510c18d129fa9afa4644d62c6347c06177ce30"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationAssets/CITEPROC-README.rst",
+      "bytes": 6484,
+      "sha256": "4782578991e43a4d1644851363d00d700f6a8f504a623c55ec008c1d2ea6c7b0"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationAssets/CSL-LOCALES-NOTICE.md",
+      "bytes": 1777,
+      "sha256": "f8e1b34d3e1b66f101b45bc45e5fca0397aa923fe4abeab6f98139c8f731c320"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationAssets/CSL-STYLES-NOTICE.md",
+      "bytes": 6573,
+      "sha256": "eeda35e6ab1c71ef74ba98e8d63f3f5c07e1b1c458b92d54cdd7515afcb1b04e"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationAssets/apa.csl",
+      "bytes": 85658,
+      "sha256": "1ece4fb3c295e66d04b4394e295aa58a87741ceeef1658192437eb9953c2f13e"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationAssets/citeproc-2.4.63.js",
+      "bytes": 967493,
+      "sha256": "55abba1a8b8b48c14323fd053f9646013b4b7a0c977938064ecf5195a502b9f1"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationAssets/locales-en-US.xml",
+      "bytes": 32649,
+      "sha256": "ac864c7c21166b4390d82c31792cdc509400727fa0060b43d8aa17e07f9cb079"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationAssets/plos.csl",
+      "bytes": 10357,
+      "sha256": "9e4e46b754097ccc48377aeeeccf28e1d58c3fac169a46cbc7ef8a5fad97c35f"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationEngine.swift",
+      "bytes": 20507,
+      "sha256": "d4d6a0b831ee0c4a2bce87cc0d1cff374712764fa73c471a4b2ddfe2c0afe602"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationManuscript.swift",
+      "bytes": 7353,
+      "sha256": "1c43286cccdcac34f344552502581876be58fabd9c9034c041aaad2991849944"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationRenderer.swift",
+      "bytes": 28033,
+      "sha256": "97c51caba378ee788a754437034739ecea45809c07c34603c58891250d6cf26e"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PublicationWorkflowView.swift",
+      "bytes": 33183,
+      "sha256": "f0817075e3b56215ebe472e2db56a0bb206d43639da0c4cc8df0a9746ef4cf75"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/PurchaseConfiguration.swift",
+      "bytes": 3723,
+      "sha256": "f63a56c58590ee2d026bd8f65595de9c071004ec084ce4605d2c26fd99a3450e"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/RepairView.swift",
+      "bytes": 6607,
+      "sha256": "ace78de5a94d6e37970c0f652d79e86f30653be9ef71c33fc7a241da8dc0c95b"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/ResearchArgument.swift",
+      "bytes": 24227,
+      "sha256": "10e537960d952d9a411c1c054c651fcce366cdd23e469cc8f32c173f1fdfacdb"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/ResearchArgumentView.swift",
+      "bytes": 49470,
+      "sha256": "1f6fd292f186c67d7b21d19409117793824190ba78a0d16512780aa203433d9f"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/ResearchContentImport.swift",
+      "bytes": 9959,
+      "sha256": "595333ba8d15be9180b3d012bdc6cef3576cea2fe225a8e6412f11d1ecd960df"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/ResearchHomeView.swift",
+      "bytes": 12795,
+      "sha256": "6fd0226b448e39fdd2099cc292d83889e5f6ea082e55b0de296dc5c97304d717"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/ResearchInboxView.swift",
+      "bytes": 8869,
+      "sha256": "df9faaa361a23bdbf063b5f7b48f1e775df2ec3d6ceb237a02c2b6b229e3bf3e"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/ResearchOSBridge.swift",
+      "bytes": 23979,
+      "sha256": "8b7b69f4a7f518a57f0a537776f06ef698d1d21fde21e05ce68a78c5bf18622c"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/ResearchOSFlightRecorderApp.swift",
+      "bytes": 1101,
+      "sha256": "95b9d0adea7737ae8ea74bbdb24fe4ab8904d826d2720989ac064eb2704924d0"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/ResearchOSShortcuts.swift",
+      "bytes": 815,
+      "sha256": "c997aee80f632e77f7086a0484dd84807bba5cb2217d8db0df98656ca27c1d8a"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/ResearchOSSubscriptions.storekit",
+      "bytes": 4506,
+      "sha256": "8956d2c37fa95d9f458853300c871709c0332c8183925e23246c3f42eec64085"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/ResearchWorkflowViews.swift",
+      "bytes": 30521,
+      "sha256": "320778d927180b50d6065b5af27a2610833cc82d1c1b21f9c95a665f79d4f4d4"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/ResearchWorkspace.swift",
+      "bytes": 85106,
+      "sha256": "bb9a289fb1a0e9a0635aeb20c75050ca404e39fcc1e021dc17615a159f6c3de3"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/ReviewView.swift",
+      "bytes": 7662,
+      "sha256": "03d257480cad647ec3c7fcb87d16e130d5313666558a9e023fe81c63a1bf9944"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/RootView.swift",
+      "bytes": 14214,
+      "sha256": "396411f6b892ff1f9f63ce0f5e425edf8c4324c1f7c226013237f082a6e0eb0f"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/SubscriptionContract.swift",
+      "bytes": 9269,
+      "sha256": "a97475b02248e78814e0c68cd772162f98682e085822b4e10066d2be370632c5"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/SubscriptionController.swift",
+      "bytes": 14855,
+      "sha256": "17a91150f3b1f5bfeceedd5ca3a91e9eb7dab792a20c3826aa1427fabbf62270"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/SubscriptionView.swift",
+      "bytes": 17319,
+      "sha256": "3205beda7c68407a21c59c620ae3fcb2f539bd84dd1c7000d985757ae14ab278"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/VerifyView.swift",
+      "bytes": 4225,
+      "sha256": "d380ea54ab1d6b31abacd2512d065adbf8721f3c1cd63a3b206134da420c4b5e"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorder/WorkspaceLibraryView.swift",
+      "bytes": 33888,
+      "sha256": "cb2f9faa0e233cfb19298d067c6dedf59239324896d3ab09a334e2ab0733ea37"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/AppModelTests.swift",
+      "bytes": 6223,
+      "sha256": "9592819cb562cef9b6e66522594bcd329ce5da9636d8e8e489b75fe1a18c9cb5"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/CoreParityTests.swift",
+      "bytes": 50434,
+      "sha256": "6d531a2ff2637552fab0d8fbc8536a0a85d8df54b138be2993627a38aa288eca"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/Fixtures/LegacyC070/FIXTURE-ORIGIN.json",
+      "bytes": 423,
+      "sha256": "861054b1854bef425f0b7b8e7237dde8b2986b5a9e161ef526fbd521212c760b"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/Fixtures/LegacyC070/research-archive.json",
+      "bytes": 231101,
+      "sha256": "f8c4da7c5f31b399ded1789b86b6556a681000adbaad3c675c8c131816ef4e28"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/Fixtures/RealSource/FREEZE.json",
+      "bytes": 1315,
+      "sha256": "0dff49ed1d03ea7ccdbb357e384333e3f920ba75327465aa06ead4a449affaa9"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/Fixtures/RealSource/PROVENANCE.json",
+      "bytes": 2301,
+      "sha256": "e5f24eacf66cf25b9d3bd940ad86bf6b6dbce6b5a2a927ee09cb5d68977a2992"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/Fixtures/RealSource/development.json",
+      "bytes": 4937,
+      "sha256": "ef98a0d9403188e4c3879959b1e9f9a19ba81a30217bfd6923280e657eaadc9b"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/Fixtures/RealSource/evaluation.json",
+      "bytes": 6697,
+      "sha256": "b6138b91607615bbc95470305b12aee5fa1f3a4904c5de74c11d0066cf993999"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/Fixtures/RealSource/kross2013.pdf",
+      "bytes": 324291,
+      "sha256": "7ba9667c23217f8f2571181b40884ce2e3d6342613425b6232ad56ebbcfeea8d"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/LibrarySearchTests.swift",
+      "bytes": 2647,
+      "sha256": "4148d5728e4ab6b814ea9a2186894ddfacbb9f1490961fc679c066a4214684da"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/PublicationEngineTests.swift",
+      "bytes": 26651,
+      "sha256": "1dc26e17336ed9445d09d12b2a17b0ca91a08d1a6c7270e6a1284180d0ebf33c"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/PublicationPersistenceTests.swift",
+      "bytes": 22232,
+      "sha256": "9bbe7a12297c1fc94b87062182edd709e32d0dcc8504ee0dfbb9ec6a0fcfc6e5"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/RealSourceWorkflowTests.swift",
+      "bytes": 23659,
+      "sha256": "0357180c89bd00cf196f1d32bc9c3b2801cd3ed63c1574f9435d72a703552b4f"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/ResearchArgumentTests.swift",
+      "bytes": 51313,
+      "sha256": "39e92bd99ab45bf57ea470fdb141c4205b098a49649df7531274c41d4b1bc5e1"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/ResearchContentImportTests.swift",
+      "bytes": 4544,
+      "sha256": "fdd099a7bca9890de739e1973c09b8fcd28d34ec708ebb2dbe401163e83fd644"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/ResearchOSBridgeTests.swift",
+      "bytes": 13369,
+      "sha256": "272f9a8f3729c3d00e89e2b78ecc4db05e77c115a2bc460bc91e822f3ec354ef"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/StoreKitContractTests.swift",
+      "bytes": 2112,
+      "sha256": "280bf1b036ac7917391543b1d720c187826929194d9eae510855974f16c46192"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchOSFlightRecorderTests/SubscriptionContractTests.swift",
+      "bytes": 23303,
+      "sha256": "c6f3a9d0d8b6da3153bbbe8b4b3ef7747f633b822c6073b7cac914af472225ae"
+    },
+    {
+      "path": "mobile/research-os-ios/ResearchProUITests/ResearchProJourneyUITests.swift",
+      "bytes": 54217,
+      "sha256": "7def4b5cf91cd22f056051ed00d823e9737f8d8ff1e8eb160b4d638143081177"
+    },
+    {
+      "path": "mobile/research-os-ios/scripts/archive-on-mac.sh",
+      "bytes": 1121,
+      "sha256": "f45e09826616ddd003460c3689b01bff65a318a271847c21c62606249d45c3e0"
+    },
+    {
+      "path": "mobile/research-os-ios/scripts/test-revenuecat-release-guards.py",
+      "bytes": 3308,
+      "sha256": "cb8cb790a59fa01ca8aeb453be5f4b304e3068b18357336a28317fa1379da51b"
+    },
+    {
+      "path": "mobile/research-os-ios/scripts/validate-revenuecat-key.sh",
+      "bytes": 1815,
+      "sha256": "789b3222ddeacf71317655cacc02bc6897fcd83c002700b43917ce4b117721aa"
+    },
+    {
+      "path": "mobile/research-os-ios/scripts/validate-revenuecat-release-evidence.py",
+      "bytes": 2784,
+      "sha256": "00533b6a90b42384842306500b40c550ab2d735d6bf9cea1edce21c1a33c4559"
+    },
+    {
+      "path": "mobile/research-os-ios/scripts/verify-on-mac.sh",
+      "bytes": 2050,
+      "sha256": "529a6b11ea57eadac1f8b32f24286c63c0b6effa7dd559f08d29512d5238c01e"
+    },
+    {
+      "path": "mobile/research-os-ios/scripts/verify-revenuecat-demo.sh",
+      "bytes": 2915,
+      "sha256": "8b6f80c87584e54594b60660429c182eaaa3bd0cf4f33a20a1e8b44f13720f81"
+    },
+    {
+      "path": "requirements-test-lock.txt",
+      "bytes": 912,
+      "sha256": "1b37ea81be62284a9d423cf3012e0d0a423ae2499bf8fbe364f1c365e2c95376"
+    },
+    {
+      "path": "requirements-test.txt",
+      "bytes": 14,
+      "sha256": "93c4ab5f175d24229e46ec70a8ecaeb6db8b36e3f54d8005808044c060acbc92"
+    },
+    {
+      "path": "tests/ios_v2_core/test_python_swift_golden.py",
+      "bytes": 3328,
+      "sha256": "9daad2bc8dd4ca5a19b4aff38e1aa28eef4099c53011692fa3c8cd9c95a88a37"
+    },
+    {
+      "path": "tests/reverie/test_ios_v2_workflows.py",
+      "bytes": 4269,
+      "sha256": "3ea0cddcb740f15ba40daf72ddd503feff65229a2f2727fe4947b237667d4bb7"
+    },
+    {
+      "path": "tests/reverie/test_ios_v2_workspace_persistence.py",
+      "bytes": 9436,
+      "sha256": "0b0e598ef7693cb799a63ae1b0e1b2ab488ddea3bff8b0e9afe84aa1e8a64f01"
+    }
+  ],
+  "replace_documents": {
+    "mobile/research-os-ios/README.md": "native-README.md",
+    "mobile/research-os-ios/Config/ReleaseEvidence/README.md": "release-evidence-README.md"
+  },
+  "add_documents": {
+    "README.md": "README.md",
+    "SOURCE_PROVENANCE.md": "SOURCE_PROVENANCE.md",
+    "VERIFICATION.md": "VERIFICATION.md",
+    "SOURCE_INVENTORY.json": "RELEASE_PAYLOAD.json"
+  },
+  "licensing_documents_from_other_agent": [
+    "LICENSE",
+    "PUBLIC_RELEASE_LICENSING.md",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "excluded_baseline_paths": [
+    "ADVERSARIAL_REVIEW.md",
+    "BUILD_REPRODUCIBILITY.md",
+    "CURRENT_STATE.md",
+    "EXTERNAL_USABILITY_PROTOCOL.md",
+    "HANDOFF_MANIFEST.json",
+    "HUMAN_ACTIONS.md",
+    "IMPLEMENTATION_DELTA.md",
+    "JUDGE_QUICKSTART.md",
+    "LICENSE_PROPOSAL_NON_EFFECTIVE.md",
+    "PRIVACY_AND_RIGHTS_CHECKLIST.md",
+    "QA_REPORT.md",
+    "README.md",
+    "REVENUECAT_SETUP_AND_EVIDENCE.md",
+    "SHIPATON_RULES_MATRIX.md",
+    "THIRD_PARTY_NOTICES.md",
+    "VERIFIED_CAPABILITIES.md",
+    "docs/ios-v2/V2_ACCESSIBILITY_MATRIX.md",
+    "docs/ios-v2/V2_APP_STORE_DELTA.md",
+    "docs/ios-v2/V2_APP_STORE_PRIVACY_ANSWERS.md",
+    "docs/ios-v2/V2_DEVICE_TEST_MATRIX.md",
+    "docs/ios-v2/V2_FEATURE_DAG.json",
+    "docs/ios-v2/V2_FINAL_RECEIPT.md",
+    "docs/ios-v2/V2_HANDOFF.json",
+    "docs/ios-v2/V2_INTERFACE_FREEZE.md",
+    "docs/ios-v2/V2_MAC_RELEASE_RUNBOOK.md",
+    "docs/ios-v2/V2_PATH_OWNERSHIP.md",
+    "docs/ios-v2/V2_PERFORMANCE_BUDGET.md",
+    "docs/ios-v2/V2_PRIVACY_DATA_MAP.md",
+    "docs/ios-v2/V2_PYTHON_SWIFT_PARITY_PLAN.md",
+    "docs/ios-v2/V2_PYTHON_SWIFT_PARITY_RECEIPT.md",
+    "docs/ios-v2/V2_REVENUECAT_PRODUCT_CONTRACT.md",
+    "docs/ios-v2/V2_REVENUECAT_STATE_MATRIX.md",
+    "docs/ios-v2/V2_REVENUECAT_TEST_RECEIPT.md",
+    "docs/ios-v2/V2_SECURITY_AUDIT.md",
+    "docs/ios-v2/V2_SUBSCRIPTION_DISCLOSURE.md",
+    "docs/ios-v2/V2_ZERO_CONTEXT_BASELINE.md",
+    "evidence/archive-verification.json",
+    "evidence/full-system-manifest-verification.json",
+    "evidence/native-comparison.json",
+    "evidence/provider-configuration-observation.json",
+    "evidence/rules-refresh-receipt.json",
+    "evidence/rules-source-receipts.json",
+    "evidence/test-summaries/baseline.json",
+    "evidence/test-summaries/core-ui-3.json",
+    "evidence/test-summaries/dark-ui-1.json",
+    "evidence/test-summaries/native-98.json",
+    "evidence/test-summaries/native-focused-legal.json",
+    "evidence/test-summaries/provider-native-final.json",
+    "foundation-manifest-verification.json",
+    "mobile/research-os-ios/AppStore/APPLE_SUBMISSION_SOURCES.md",
+    "mobile/research-os-ios/AppStore/APP_REVIEW_NOTES.md",
+    "mobile/research-os-ios/AppStore/APP_STORE_CONNECT_VALUES.json",
+    "mobile/research-os-ios/AppStore/DESCRIPTION.md",
+    "mobile/research-os-ios/AppStore/PRIVACY_POLICY.md",
+    "mobile/research-os-ios/AppStore/PUBLISH_CHECKLIST.md",
+    "mobile/research-os-ios/AppStore/SCREENSHOT_PLAN.md",
+    "mobile/research-os-ios/AppStore/SUBSCRIPTION_RELEASE_CHECKLIST.md",
+    "mobile/research-os-ios/Config/ReleaseEvidence/README.md",
+    "mobile/research-os-ios/README.md",
+    "mobile/research-os-ios/scripts/build-v2-handoff.py",
+    "mobile/research-os-ios/scripts/verify-v2-handoff.py",
+    "native-source-comparison.json",
+    "scripts/package-shipaton.py",
+    "scripts/verify-package.py",
+    "source-archive-verification.json",
+    "submission/next-gen/NARRATION_SCRIPT.json",
+    "submission/next-gen/PUBLIC_RELEASE_CHECKLIST.md",
+    "submission/next-gen/SUBMISSION_COPY_DRAFT.md",
+    "submission/next-gen/UI_BEFORE_AFTER.md",
+    "submission/next-gen/VIDEO_INDEPENDENT_REVIEW.json",
+    "submission/next-gen/VIDEO_STORYBOARD_114_SECONDS.md",
+    "submission/next-gen/VIDEO_STORYBOARD_116_SECONDS.md",
+    "submission/next-gen/VIDEO_VALIDATION.json",
+    "submission/next-gen/assets/Research-Pro-iPhone15-1179x2556.png",
+    "submission/next-gen/assets/RevenueCat-native-paywall-1179x2556.png",
+    "submission/next-gen/assets/RevenueCat-native-plans-and-terms-1179x2556.png",
+    "submission/next-gen/assets/asset-manifest.json",
+    "submission/next-gen/assets/before-Flight-Recorder-iPhone17.png",
+    "submission/next-gen/assets/finding-iphone15-qa.png",
+    "submission/next-gen/assets/icon-1024.png",
+    "submission/next-gen/assets/impact-preview-iphone15-qa.png",
+    "submission/next-gen/assets/repair-preview-iphone15-qa.png",
+    "tested-source-manifest.json",
+    "tests/reverie/test_ios_v1_package.py",
+    "tests/reverie/test_ios_v2_commercial.py",
+    "tests/reverie/test_ios_v2_release.py"
+  ],
+  "boundary": "Public source projection of 53e32; new repository history, not the original 187-file archive. All 52 application-directory files and original native tests remain unchanged. Three mixed historical packaging/metadata/commercial-wiring Python suites and their historical/private document inputs are excluded. Fresh assembled public tree checks passed the retained 20 behavioral/parity tests and 6 release guards.",
+  "public_projection_checks": {
+    "python_behavioral_parity": {
+      "passed": 20,
+      "seconds": 0.06
+    },
+    "release_guards": {
+      "passed": 6,
+      "seconds": 0.18
+    },
+    "shell_executable_modes": "All five retained .sh/.command files match original Git mode 100755 in the assembled public repo."
+  }
+}

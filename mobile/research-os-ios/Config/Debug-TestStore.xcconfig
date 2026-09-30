@@ -1,0 +1,3 @@
+#include "Shared.xcconfig"
+RC_STORE_MODE = test-store
+RC_RELEASE_BUILD = NO

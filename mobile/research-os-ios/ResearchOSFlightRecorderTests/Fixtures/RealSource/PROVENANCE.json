@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source_id": "kross2013-pone0069841",
+  "citation": "Kross E, Verduyn P, Demiralp E, Park J, Lee DS, Lin N, Shablack H, Jonides J, Ybarra O (2013). Facebook Use Predicts Declines in Subjective Well-Being in Young Adults. PLOS ONE 8(8): e69841. https://doi.org/10.1371/journal.pone.0069841",
+  "article_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0069841",
+  "retrieval_date_utc": "2026-09-24T02:04:15.865128+00:00",
+  "original_pdf_sha256": "7ba9667c23217f8f2571181b40884ce2e3d6342613425b6232ad56ebbcfeea8d",
+  "original_xml_sha256": "c099480f9a79401b20fa7a168b1e14bb480365a98134b9770947fd1ff87b6eac",
+  "license": {
+    "name": "Creative Commons Attribution",
+    "version": "Not specified in the downloaded article PDF/XML notice; do not infer a version",
+    "evidence": [
+      "original PDF page 1 copyright notice",
+      "original XML article-meta/permissions/license"
+    ],
+    "attribution": "Copyright 2013 Kross et al. Reused under the article Creative Commons Attribution notice. Original author and source credited.",
+    "redistribution_basis": "Article-specific permission explicitly permits unrestricted use, distribution, and reproduction in any medium with original-author/source credit.",
+    "metadata_license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "metadata_source": "https://api.crossref.org/works/10.1371/journal.pone.0069841",
+    "metadata_note": "Current Crossref metadata explicitly identifies CC BY 4.0; article PDF/XML notice states CC Attribution without a version.",
+    "metadata_file": "sources/kross2013.crossref.json"
+  },
+  "original_modifications": "None; original PDF and XML byte-preserved. Extracted text is a derivative with extractor glyph limitations. Local QA v2 prepends a labeled provenance header only.",
+  "extraction": {
+    "tool": "pypdf",
+    "pages": 6,
+    "page_character_counts": [
+      5650,
+      7389,
+      2528,
+      7878,
+      6919,
+      1543
+    ],
+    "limitation": "Some non-ASCII mathematical glyphs in original PDF extract imperfectly; figures/tables and numerical signs require visual review. Simple fixture quotations avoid those corrupted spans."
+  },
+  "human_review_status": "HUMAN_PILOT_PENDING",
+  "private_data": "None; published article only."
+}

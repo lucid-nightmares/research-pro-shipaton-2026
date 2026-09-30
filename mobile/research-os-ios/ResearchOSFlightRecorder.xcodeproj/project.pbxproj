@@ -1,0 +1,825 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000001 /* ResearchOSFlightRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* ResearchOSFlightRecorderApp.swift */; };
+		100000000000000000000002 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* AppTheme.swift */; };
+		100000000000000000000003 /* FlightRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* FlightRecord.swift */; };
+		100000000000000000000004 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* AppModel.swift */; };
+		100000000000000000000005 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* RootView.swift */; };
+		100000000000000000000006 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000006 /* ReviewView.swift */; };
+		100000000000000000000007 /* RepairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000007 /* RepairView.swift */; };
+		100000000000000000000008 /* VerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* VerifyView.swift */; };
+		100000000000000000000009 /* DemoRecord.json in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000009 /* DemoRecord.json */; };
+		10000000000000000000000A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000A /* Assets.xcassets */; };
+		10000000000000000000000B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000B /* PrivacyInfo.xcprivacy */; };
+		10000000000000000000000C /* AppModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000D /* AppModelTests.swift */; };
+		10000000000000000000000D /* LocalReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000010 /* LocalReviewView.swift */; };
+		10000000000000000000000E /* SubscriptionContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000011 /* SubscriptionContract.swift */; };
+		10000000000000000000000F /* PurchaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000012 /* PurchaseConfiguration.swift */; };
+		100000000000000000000010 /* SubscriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000013 /* SubscriptionController.swift */; };
+		100000000000000000000011 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000014 /* SubscriptionView.swift */; };
+		100000000000000000000012 /* SubscriptionContractTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000015 /* SubscriptionContractTests.swift */; };
+		100000000000000000000013 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = D10000000000000000000001 /* RevenueCat */; };
+		100000000000000000000014 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = D10000000000000000000002 /* RevenueCatUI */; };
+		100000000000000000000015 /* ResearchOSBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001C /* ResearchOSBridge.swift */; };
+		100000000000000000000016 /* ResearchOSBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001D /* ResearchOSBridgeTests.swift */; };
+		100000000000000000000017 /* ResearchWorkspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001E /* ResearchWorkspace.swift */; };
+		100000000000000000000018 /* WorkspaceLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001F /* WorkspaceLibraryView.swift */; };
+		100000000000000000000019 /* ResearchInboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000020 /* ResearchInboxView.swift */; };
+		10000000000000000000001A /* ResearchWorkflowViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000021 /* ResearchWorkflowViews.swift */; };
+		10000000000000000000001B /* ResearchOSShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000022 /* ResearchOSShortcuts.swift */; };
+		10000000000000000000001C /* CommercialCapabilityPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000023 /* CommercialCapabilityPolicy.swift */; };
+		10000000000000000000001D /* CanonicalJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000024 /* CanonicalJSON.swift */; };
+		10000000000000000000001E /* ResearchOSContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000025 /* ResearchOSContracts.swift */; };
+		10000000000000000000001F /* ResearchEventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000026 /* ResearchEventStore.swift */; };
+		100000000000000000000020 /* CoreParityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000027 /* CoreParityTests.swift */; };
+		100000000000000000000021 /* StoreKitContractTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000028 /* StoreKitContractTests.swift */; };
+		100000000000000000000022 /* ResearchOSSubscriptions.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000016 /* ResearchOSSubscriptions.storekit */; };
+		100000000000000000000023 /* python-swift-event-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000029 /* python-swift-event-v1.json */; };
+		D33F1A266E52D8531B8CB1CE /* ResearchArgument.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89D37B6725FFEB0CB56ADB /* ResearchArgument.swift */; };
+		F230E17B4B4CA7C0DCC47076 /* ResearchHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FA78C45E7EB06EF0126C0 /* ResearchHomeView.swift */; };
+		5A9BF440C47E98028D755816 /* ResearchArgumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0601B00DB242BC2A87F332E6 /* ResearchArgumentView.swift */; };
+		F23AE7054C13ADDDE849FA47 /* ResearchContentImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC747EF63C255C3B44CCF671 /* ResearchContentImport.swift */; };
+		5F7312B76FBF30FBE181B368 /* ResearchArgumentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F9139CFADE28382C99EBC4 /* ResearchArgumentTests.swift */; };
+		D0B0EF7D235273193E33C917 /* ResearchContentImportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4EC14134F83802EFA02DF /* ResearchContentImportTests.swift */; };
+		AB0000000000000000000001 /* ResearchProJourneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0000000000000000000002; };
+		206DF5D56CE598A70BD5F993 /* PublicationManuscript.swift */ = {isa = PBXBuildFile; fileRef = 4CBF8543102D46DAD3563E70; };
+		DC1FB02C97412759F8B8B8B0 /* PublicationEngine.swift */ = {isa = PBXBuildFile; fileRef = 44D60339BD888E4877194300; };
+		54B0008747629D2C55901122 /* PublicationRenderer.swift */ = {isa = PBXBuildFile; fileRef = 11F7BA4530A0F5CC0334AA70; };
+		0EF8879062DD70F47E00E644 /* PublicationWorkflowView.swift */ = {isa = PBXBuildFile; fileRef = F06F54EBEFBE356C234191B5; };
+		1381F9EAE022F652E0512874 /* PublicationAssets */ = {isa = PBXBuildFile; fileRef = 9058BC2AD882A009F6D51EB2; };
+		AAA118A6FCDA9833AD411109 /* PublicationEngineTests.swift */ = {isa = PBXBuildFile; fileRef = EFB9EDD8D9AAD14877818364; };
+		B48B8E0FCCB63A3AEEC0A94B /* PublicationPersistenceTests.swift */ = {isa = PBXBuildFile; fileRef = 0AE5DB512A47E222BD10BF2A; };
+		C1E7D48A55CAF9A0EDCC0317 /* LibrarySearchTests.swift */ = {isa = PBXBuildFile; fileRef = 0FC4EA74B0EA2C9F5D36F34F; };
+		AFED258A85ED3AB743E9F366 /* RealSourceWorkflowTests.swift */ = {isa = PBXBuildFile; fileRef = 0CDE09A45AC01FE9C918FE75; };
+		8D2609CE26FFFFD67A03B713 /* Fixtures */ = {isa = PBXBuildFile; fileRef = 3B9D72AE1C267BC82333A820; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		300000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 400000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 500000000000000000000001;
+			remoteInfo = ResearchOSFlightRecorder;
+		};
+		AB000000000000000000000E = {isa = PBXContainerItemProxy; containerPortal = 400000000000000000000001; proxyType = 1; remoteGlobalIDString = 500000000000000000000001; remoteInfo = ResearchOSFlightRecorder; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200000000000000000000001 /* ResearchOSFlightRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchOSFlightRecorderApp.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* FlightRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRecord.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		200000000000000000000005 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		200000000000000000000007 /* RepairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairView.swift; sourceTree = "<group>"; };
+		200000000000000000000008 /* VerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyView.swift; sourceTree = "<group>"; };
+		200000000000000000000009 /* DemoRecord.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DemoRecord.json; sourceTree = "<group>"; };
+		20000000000000000000000A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20000000000000000000000B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		20000000000000000000000C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20000000000000000000000D /* AppModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModelTests.swift; sourceTree = "<group>"; };
+		20000000000000000000000E /* ResearchOSFlightRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResearchOSFlightRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20000000000000000000000F /* ResearchOSFlightRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResearchOSFlightRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000010 /* LocalReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalReviewView.swift; sourceTree = "<group>"; };
+		200000000000000000000011 /* SubscriptionContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionContract.swift; sourceTree = "<group>"; };
+		200000000000000000000012 /* PurchaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseConfiguration.swift; sourceTree = "<group>"; };
+		200000000000000000000013 /* SubscriptionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionController.swift; sourceTree = "<group>"; };
+		200000000000000000000014 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		200000000000000000000015 /* SubscriptionContractTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionContractTests.swift; sourceTree = "<group>"; };
+		200000000000000000000016 /* ResearchOSSubscriptions.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = ResearchOSSubscriptions.storekit; sourceTree = "<group>"; };
+		200000000000000000000017 /* Debug-TestStore.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Debug-TestStore.xcconfig"; sourceTree = "<group>"; };
+		200000000000000000000018 /* Debug-AppleSandbox.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Debug-AppleSandbox.xcconfig"; sourceTree = "<group>"; };
+		200000000000000000000019 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		20000000000000000000001A /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		20000000000000000000001B /* LocalSecrets.xcconfig.example */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LocalSecrets.xcconfig.example; sourceTree = "<group>"; };
+		20000000000000000000001C /* ResearchOSBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchOSBridge.swift; sourceTree = "<group>"; };
+		20000000000000000000001D /* ResearchOSBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchOSBridgeTests.swift; sourceTree = "<group>"; };
+		20000000000000000000001E /* ResearchWorkspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchWorkspace.swift; sourceTree = "<group>"; };
+		20000000000000000000001F /* WorkspaceLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceLibraryView.swift; sourceTree = "<group>"; };
+		200000000000000000000020 /* ResearchInboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchInboxView.swift; sourceTree = "<group>"; };
+		200000000000000000000021 /* ResearchWorkflowViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchWorkflowViews.swift; sourceTree = "<group>"; };
+		200000000000000000000022 /* ResearchOSShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchOSShortcuts.swift; sourceTree = "<group>"; };
+		200000000000000000000023 /* CommercialCapabilityPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommercialCapabilityPolicy.swift; sourceTree = "<group>"; };
+		200000000000000000000024 /* CanonicalJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanonicalJSON.swift; sourceTree = "<group>"; };
+		200000000000000000000025 /* ResearchOSContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchOSContracts.swift; sourceTree = "<group>"; };
+		200000000000000000000026 /* ResearchEventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchEventStore.swift; sourceTree = "<group>"; };
+		200000000000000000000027 /* CoreParityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreParityTests.swift; sourceTree = "<group>"; };
+		200000000000000000000028 /* StoreKitContractTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitContractTests.swift; sourceTree = "<group>"; };
+		200000000000000000000029 /* python-swift-event-v1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Fixtures/python-swift-event-v1.json"; sourceTree = "<group>"; };
+		CE89D37B6725FFEB0CB56ADB /* ResearchArgument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchArgument.swift; sourceTree = "<group>"; };
+		621FA78C45E7EB06EF0126C0 /* ResearchHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchHomeView.swift; sourceTree = "<group>"; };
+		0601B00DB242BC2A87F332E6 /* ResearchArgumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchArgumentView.swift; sourceTree = "<group>"; };
+		BC747EF63C255C3B44CCF671 /* ResearchContentImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchContentImport.swift; sourceTree = "<group>"; };
+		35F9139CFADE28382C99EBC4 /* ResearchArgumentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchArgumentTests.swift; sourceTree = "<group>"; };
+		9BC4EC14134F83802EFA02DF /* ResearchContentImportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchContentImportTests.swift; sourceTree = "<group>"; };
+		AB0000000000000000000002 /* ResearchProJourneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResearchProJourneyUITests.swift; sourceTree = "<group>"; };
+		AB0000000000000000000003 /* ResearchProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResearchProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CBF8543102D46DAD3563E70 /* PublicationManuscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationManuscript.swift; sourceTree = "<group>"; };
+		44D60339BD888E4877194300 /* PublicationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationEngine.swift; sourceTree = "<group>"; };
+		11F7BA4530A0F5CC0334AA70 /* PublicationRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationRenderer.swift; sourceTree = "<group>"; };
+		F06F54EBEFBE356C234191B5 /* PublicationWorkflowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationWorkflowView.swift; sourceTree = "<group>"; };
+		9058BC2AD882A009F6D51EB2 /* PublicationAssets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PublicationAssets; sourceTree = "<group>"; };
+		EFB9EDD8D9AAD14877818364 /* PublicationEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationEngineTests.swift; sourceTree = "<group>"; };
+		0AE5DB512A47E222BD10BF2A /* PublicationPersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationPersistenceTests.swift; sourceTree = "<group>"; };
+		0FC4EA74B0EA2C9F5D36F34F /* LibrarySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrarySearchTests.swift; sourceTree = "<group>"; };
+		0CDE09A45AC01FE9C918FE75 /* RealSourceWorkflowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSourceWorkflowTests.swift; sourceTree = "<group>"; };
+		3B9D72AE1C267BC82333A820 /* Fixtures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fixtures; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		600000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000013 /* RevenueCat in Frameworks */,
+				100000000000000000000014 /* RevenueCatUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		600000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0000000000000000000006 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		700000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				700000000000000000000002 /* ResearchOSFlightRecorder */,
+				700000000000000000000003 /* ResearchOSFlightRecorderTests */,
+				AB0000000000000000000004 /* ResearchProUITests */,
+				200000000000000000000029 /* python-swift-event-v1.json */,
+				700000000000000000000005 /* Config */,
+				700000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		700000000000000000000002 /* ResearchOSFlightRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				9058BC2AD882A009F6D51EB2 /* PublicationAssets */,
+				F06F54EBEFBE356C234191B5 /* PublicationWorkflowView.swift */,
+				11F7BA4530A0F5CC0334AA70 /* PublicationRenderer.swift */,
+				44D60339BD888E4877194300 /* PublicationEngine.swift */,
+				4CBF8543102D46DAD3563E70 /* PublicationManuscript.swift */,
+				BC747EF63C255C3B44CCF671 /* ResearchContentImport.swift */,
+				0601B00DB242BC2A87F332E6 /* ResearchArgumentView.swift */,
+				621FA78C45E7EB06EF0126C0 /* ResearchHomeView.swift */,
+				CE89D37B6725FFEB0CB56ADB /* ResearchArgument.swift */,
+				200000000000000000000001 /* ResearchOSFlightRecorderApp.swift */,
+				200000000000000000000002 /* AppTheme.swift */,
+				200000000000000000000003 /* FlightRecord.swift */,
+				200000000000000000000004 /* AppModel.swift */,
+				200000000000000000000005 /* RootView.swift */,
+				200000000000000000000006 /* ReviewView.swift */,
+				200000000000000000000007 /* RepairView.swift */,
+				200000000000000000000008 /* VerifyView.swift */,
+				200000000000000000000010 /* LocalReviewView.swift */,
+				200000000000000000000011 /* SubscriptionContract.swift */,
+				200000000000000000000012 /* PurchaseConfiguration.swift */,
+				200000000000000000000013 /* SubscriptionController.swift */,
+				200000000000000000000014 /* SubscriptionView.swift */,
+				20000000000000000000001C /* ResearchOSBridge.swift */,
+				20000000000000000000001E /* ResearchWorkspace.swift */,
+				20000000000000000000001F /* WorkspaceLibraryView.swift */,
+				200000000000000000000020 /* ResearchInboxView.swift */,
+				200000000000000000000021 /* ResearchWorkflowViews.swift */,
+				200000000000000000000022 /* ResearchOSShortcuts.swift */,
+				200000000000000000000023 /* CommercialCapabilityPolicy.swift */,
+				700000000000000000000006 /* Core */,
+				200000000000000000000016 /* ResearchOSSubscriptions.storekit */,
+				200000000000000000000009 /* DemoRecord.json */,
+				20000000000000000000000A /* Assets.xcassets */,
+				20000000000000000000000B /* PrivacyInfo.xcprivacy */,
+				20000000000000000000000C /* Info.plist */,
+			);
+			path = ResearchOSFlightRecorder;
+			sourceTree = "<group>";
+		};
+		700000000000000000000003 /* ResearchOSFlightRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B9D72AE1C267BC82333A820 /* Fixtures */,
+				0CDE09A45AC01FE9C918FE75 /* RealSourceWorkflowTests.swift */,
+				0FC4EA74B0EA2C9F5D36F34F /* LibrarySearchTests.swift */,
+				0AE5DB512A47E222BD10BF2A /* PublicationPersistenceTests.swift */,
+				EFB9EDD8D9AAD14877818364 /* PublicationEngineTests.swift */,
+				9BC4EC14134F83802EFA02DF /* ResearchContentImportTests.swift */,
+				35F9139CFADE28382C99EBC4 /* ResearchArgumentTests.swift */,
+				20000000000000000000000D /* AppModelTests.swift */,
+				200000000000000000000015 /* SubscriptionContractTests.swift */,
+				20000000000000000000001D /* ResearchOSBridgeTests.swift */,
+				200000000000000000000027 /* CoreParityTests.swift */,
+				200000000000000000000028 /* StoreKitContractTests.swift */,
+			);
+			path = ResearchOSFlightRecorderTests;
+			sourceTree = "<group>";
+		};
+		700000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20000000000000000000000E /* ResearchOSFlightRecorder.app */,
+				20000000000000000000000F /* ResearchOSFlightRecorderTests.xctest */,
+				AB0000000000000000000003 /* ResearchProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		700000000000000000000005 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000017 /* Debug-TestStore.xcconfig */,
+				200000000000000000000018 /* Debug-AppleSandbox.xcconfig */,
+				200000000000000000000019 /* Release.xcconfig */,
+				20000000000000000000001A /* Shared.xcconfig */,
+				20000000000000000000001B /* LocalSecrets.xcconfig.example */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		700000000000000000000006 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000024 /* CanonicalJSON.swift */,
+				200000000000000000000025 /* ResearchOSContracts.swift */,
+				200000000000000000000026 /* ResearchEventStore.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AB0000000000000000000004 /* ResearchProUITests */ = {isa = PBXGroup; children = (AB0000000000000000000002); path = ResearchProUITests; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		500000000000000000000001 /* ResearchOSFlightRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000001 /* Build configuration list for PBXNativeTarget "ResearchOSFlightRecorder" */;
+			buildPhases = (
+				E00000000000000000000001 /* Validate RevenueCat release key */,
+				800000000000000000000001 /* Sources */,
+				600000000000000000000001 /* Frameworks */,
+				900000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResearchOSFlightRecorder;
+			packageProductDependencies = (
+				D10000000000000000000001 /* RevenueCat */,
+				D10000000000000000000002 /* RevenueCatUI */,
+			);
+			productName = ResearchOSFlightRecorder;
+			productReference = 20000000000000000000000E /* ResearchOSFlightRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		500000000000000000000002 /* ResearchOSFlightRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000002 /* Build configuration list for PBXNativeTarget "ResearchOSFlightRecorderTests" */;
+			buildPhases = (
+				800000000000000000000002 /* Sources */,
+				600000000000000000000002 /* Frameworks */,
+				900000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00000000000000000000001 /* PBXTargetDependency */,
+			);
+			name = ResearchOSFlightRecorderTests;
+			productName = ResearchOSFlightRecorderTests;
+			productReference = 20000000000000000000000F /* ResearchOSFlightRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB0000000000000000000008 /* ResearchProUITests */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = AB0000000000000000000009;
+            buildPhases = (AB0000000000000000000005, AB0000000000000000000006, AB0000000000000000000007);
+            buildRules = ();
+            dependencies = (AB000000000000000000000D);
+            name = ResearchProUITests;
+            productName = ResearchProUITests;
+            productReference = AB0000000000000000000003;
+            productType = "com.apple.product-type.bundle.ui-testing";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		400000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					500000000000000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = { enabled = 1; };
+						};
+					};
+					500000000000000000000002 = { CreatedOnToolsVersion = 26.0; TestTargetID = 500000000000000000000001; };
+					AB0000000000000000000008 = { CreatedOnToolsVersion = 26.0; TestTargetID = 500000000000000000000001; };
+				};
+			};
+			buildConfigurationList = A00000000000000000000003 /* Build configuration list for PBXProject "ResearchOSFlightRecorder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 700000000000000000000001;
+			productRefGroup = 700000000000000000000004 /* Products */;
+			packageReferences = (
+				D00000000000000000000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				500000000000000000000001 /* ResearchOSFlightRecorder */,
+				500000000000000000000002 /* ResearchOSFlightRecorderTests */,
+				AB0000000000000000000008 /* ResearchProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1381F9EAE022F652E0512874 /* PublicationAssets */,
+				100000000000000000000009 /* DemoRecord.json in Resources */,
+				10000000000000000000000A /* Assets.xcassets in Resources */,
+				10000000000000000000000B /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		900000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2609CE26FFFFD67A03B713 /* Fixtures */,
+				100000000000000000000022 /* ResearchOSSubscriptions.storekit in Resources */,
+				100000000000000000000023 /* python-swift-event-v1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0000000000000000000007 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E00000000000000000000001 /* Validate RevenueCat release key */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/scripts/validate-revenuecat-key.sh",
+				"$(SRCROOT)/scripts/validate-revenuecat-release-evidence.py",
+				"$(SRCROOT)/Config/ReleaseEvidence",
+			);
+			name = "Validate RevenueCat release key";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"$SRCROOT/scripts/validate-revenuecat-key.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF8879062DD70F47E00E644 /* PublicationWorkflowView.swift */,
+				54B0008747629D2C55901122 /* PublicationRenderer.swift */,
+				DC1FB02C97412759F8B8B8B0 /* PublicationEngine.swift */,
+				206DF5D56CE598A70BD5F993 /* PublicationManuscript.swift */,
+				F23AE7054C13ADDDE849FA47 /* ResearchContentImport.swift in Sources */,
+				5A9BF440C47E98028D755816 /* ResearchArgumentView.swift in Sources */,
+				F230E17B4B4CA7C0DCC47076 /* ResearchHomeView.swift in Sources */,
+				D33F1A266E52D8531B8CB1CE /* ResearchArgument.swift in Sources */,
+				100000000000000000000001 /* ResearchOSFlightRecorderApp.swift in Sources */,
+				100000000000000000000002 /* AppTheme.swift in Sources */,
+				100000000000000000000003 /* FlightRecord.swift in Sources */,
+				100000000000000000000004 /* AppModel.swift in Sources */,
+				100000000000000000000005 /* RootView.swift in Sources */,
+				100000000000000000000006 /* ReviewView.swift in Sources */,
+				100000000000000000000007 /* RepairView.swift in Sources */,
+				100000000000000000000008 /* VerifyView.swift in Sources */,
+				10000000000000000000000D /* LocalReviewView.swift in Sources */,
+				10000000000000000000000E /* SubscriptionContract.swift in Sources */,
+				10000000000000000000000F /* PurchaseConfiguration.swift in Sources */,
+				100000000000000000000010 /* SubscriptionController.swift in Sources */,
+				100000000000000000000011 /* SubscriptionView.swift in Sources */,
+				100000000000000000000015 /* ResearchOSBridge.swift in Sources */,
+				100000000000000000000017 /* ResearchWorkspace.swift in Sources */,
+				100000000000000000000018 /* WorkspaceLibraryView.swift in Sources */,
+				100000000000000000000019 /* ResearchInboxView.swift in Sources */,
+				10000000000000000000001A /* ResearchWorkflowViews.swift in Sources */,
+				10000000000000000000001B /* ResearchOSShortcuts.swift in Sources */,
+				10000000000000000000001C /* CommercialCapabilityPolicy.swift in Sources */,
+				10000000000000000000001D /* CanonicalJSON.swift in Sources */,
+				10000000000000000000001E /* ResearchOSContracts.swift in Sources */,
+				10000000000000000000001F /* ResearchEventStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFED258A85ED3AB743E9F366 /* RealSourceWorkflowTests.swift */,
+				C1E7D48A55CAF9A0EDCC0317 /* LibrarySearchTests.swift */,
+				B48B8E0FCCB63A3AEEC0A94B /* PublicationPersistenceTests.swift */,
+				AAA118A6FCDA9833AD411109 /* PublicationEngineTests.swift */,
+				D0B0EF7D235273193E33C917 /* ResearchContentImportTests.swift in Sources */,
+				5F7312B76FBF30FBE181B368 /* ResearchArgumentTests.swift in Sources */,
+				10000000000000000000000C /* AppModelTests.swift in Sources */,
+				100000000000000000000012 /* SubscriptionContractTests.swift in Sources */,
+				100000000000000000000016 /* ResearchOSBridgeTests.swift in Sources */,
+				100000000000000000000020 /* CoreParityTests.swift in Sources */,
+				100000000000000000000021 /* StoreKitContractTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0000000000000000000005 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (AB0000000000000000000001); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B00000000000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 500000000000000000000001 /* ResearchOSFlightRecorder */;
+			targetProxy = 300000000000000000000001 /* PBXContainerItemProxy */;
+		};
+		AB000000000000000000000D = {isa = PBXTargetDependency; target = 500000000000000000000001; targetProxy = AB000000000000000000000E; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C00000000000000000000001 /* Debug-TestStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200000000000000000000017 /* Debug-TestStore.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ResearchOSFlightRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.researchos.flightrecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-TestStore";
+		};
+		C00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200000000000000000000019 /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ResearchOSFlightRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.researchos.flightrecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C00000000000000000000003 /* Debug-TestStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200000000000000000000017 /* Debug-TestStore.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.researchos.flightrecorder.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResearchOSFlightRecorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ResearchOSFlightRecorder";
+			};
+			name = "Debug-TestStore";
+		};
+		C00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200000000000000000000019 /* Release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.researchos.flightrecorder.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResearchOSFlightRecorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ResearchOSFlightRecorder";
+			};
+			name = Release;
+		};
+		C00000000000000000000005 /* Debug-TestStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200000000000000000000017 /* Debug-TestStore.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-TestStore";
+		};
+		C00000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200000000000000000000019 /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C00000000000000000000007 /* Debug-AppleSandbox */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200000000000000000000018 /* Debug-AppleSandbox.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ResearchOSFlightRecorder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.researchos.flightrecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-AppleSandbox";
+		};
+		C00000000000000000000008 /* Debug-AppleSandbox */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200000000000000000000018 /* Debug-AppleSandbox.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.researchos.flightrecorder.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResearchOSFlightRecorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ResearchOSFlightRecorder";
+			};
+			name = "Debug-AppleSandbox";
+		};
+		C00000000000000000000009 /* Debug-AppleSandbox */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200000000000000000000018 /* Debug-AppleSandbox.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-AppleSandbox";
+		};
+        AB000000000000000000000A = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = "";
+                GENERATE_INFOPLIST_FILE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                PRODUCT_BUNDLE_IDENTIFIER = org.researchos.flightrecorder.uitests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                TEST_TARGET_NAME = ResearchOSFlightRecorder;
+            };
+            name = "Debug-TestStore";
+        };
+        AB000000000000000000000B = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = "";
+                GENERATE_INFOPLIST_FILE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                PRODUCT_BUNDLE_IDENTIFIER = org.researchos.flightrecorder.uitests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                TEST_TARGET_NAME = ResearchOSFlightRecorder;
+            };
+            name = "Debug-AppleSandbox";
+        };
+        AB000000000000000000000C = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_STYLE = Automatic;
+                DEVELOPMENT_TEAM = "";
+                GENERATE_INFOPLIST_FILE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                PRODUCT_BUNDLE_IDENTIFIER = org.researchos.flightrecorder.uitests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                TEST_TARGET_NAME = ResearchOSFlightRecorder;
+            };
+            name = "Release";
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000001 /* Build configuration list for PBXNativeTarget "ResearchOSFlightRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (C00000000000000000000001, C00000000000000000000007, C00000000000000000000002);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000002 /* Build configuration list for PBXNativeTarget "ResearchOSFlightRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (C00000000000000000000003, C00000000000000000000008, C00000000000000000000004);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000003 /* Build configuration list for PBXProject "ResearchOSFlightRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (C00000000000000000000005, C00000000000000000000009, C00000000000000000000006);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+        AB0000000000000000000009 = {isa = XCConfigurationList; buildConfigurations = (AB000000000000000000000A, AB000000000000000000000B, AB000000000000000000000C); defaultConfigurationIsVisible = 0; defaultConfigurationName = "Debug-TestStore"; };
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D00000000000000000000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.84.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D10000000000000000000001 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D00000000000000000000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		D10000000000000000000002 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D00000000000000000000001 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCatUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 400000000000000000000001 /* Project object */;
+}

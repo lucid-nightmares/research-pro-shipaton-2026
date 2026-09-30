@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "frozen_at_utc": "2026-09-24T02:04:15.865128+00:00",
+  "source": {
+    "id": "kross2013-pone0069841",
+    "version": "publisher-pdf-7ba9667c23217f8f",
+    "path": "sources/kross2013.pdf",
+    "original_sha256": "7ba9667c23217f8f2571181b40884ce2e3d6342613425b6232ad56ebbcfeea8d",
+    "pages": 6
+  },
+  "normalization": "Unicode whitespace collapsed to one ASCII space; leading/trailing whitespace trimmed; no punctuation/case/number rewriting. Pages are 1-based PDF pages. Exact case-sensitive substring after this normalization.",
+  "annotation_status": "AI_DRAFTED_PROVISIONAL_NOT_HUMAN_VALIDATED",
+  "science_boundary": "Fixture claims are injected QA cases, not asserted defects in the paper. Locator correctness does not establish claim support, truth, causality, or population generalizability. Semantic expectations require author review.",
+  "product_evaluation_status": "NOT_RUN",
+  "split": "development",
+  "records": [
+    {
+      "id": "DEV-01",
+      "kind": "supported_control",
+      "claim": "The study recruited 82 people.",
+      "source_id": "kross2013-pone0069841",
+      "source_version": "publisher-pdf-7ba9667c23217f8f",
+      "locator": {
+        "page": 1,
+        "quote": "Eighty-two people",
+        "section": "Methods / Participants"
+      },
+      "expected_structural": {
+        "source_exists": true,
+        "version_current": true,
+        "locator": "EXACT_QUOTE_AT_PAGE"
+      },
+      "provisional_semantic_expectation": "SUPPORTED_BY_CITED_TEXT",
+      "annotation_status": "AI_DRAFTED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "id": "DEV-02",
+      "kind": "unsupported_causal_expansion",
+      "claim": "This observational study proves that Facebook causes worse well-being.",
+      "source_id": "kross2013-pone0069841",
+      "source_version": "publisher-pdf-7ba9667c23217f8f",
+      "locator": {
+        "page": 5,
+        "quote": "experiments\nthat manipulate Facebook use in daily life are needed to\ncorroborate these findings and establish definitive causal relations.",
+        "section": "Future Research"
+      },
+      "expected_structural": {
+        "source_exists": true,
+        "version_current": true,
+        "locator": "EXACT_QUOTE_AT_PAGE"
+      },
+      "provisional_semantic_expectation": "UNSUPPORTED_CAUSAL_EXPANSION",
+      "annotation_status": "AI_DRAFTED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "id": "DEV-03",
+      "kind": "missing_page",
+      "claim": "The study recruited 82 people.",
+      "source_id": "kross2013-pone0069841",
+      "source_version": "publisher-pdf-7ba9667c23217f8f",
+      "locator": {
+        "page": null,
+        "quote": "Eighty-two people",
+        "section": "Methods / Participants"
+      },
+      "expected_structural": {
+        "source_exists": true,
+        "version_current": true,
+        "locator": "MISSING_PAGE"
+      },
+      "provisional_semantic_expectation": "AUTHOR_REVIEW_REQUIRED",
+      "annotation_status": "AI_DRAFTED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "id": "DEV-04",
+      "kind": "wrong_page",
+      "claim": "The study recruited 82 people.",
+      "source_id": "kross2013-pone0069841",
+      "source_version": "publisher-pdf-7ba9667c23217f8f",
+      "locator": {
+        "page": 5,
+        "quote": "Eighty-two people",
+        "section": "Methods / Participants"
+      },
+      "expected_structural": {
+        "source_exists": true,
+        "version_current": true,
+        "locator": "QUOTE_NOT_AT_PAGE"
+      },
+      "provisional_semantic_expectation": "AUTHOR_REVIEW_REQUIRED",
+      "annotation_status": "AI_DRAFTED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "id": "DEV-05",
+      "kind": "incomplete_evidence",
+      "claim": "The study recruited 82 people.",
+      "source_id": "kross2013-pone0069841",
+      "source_version": "publisher-pdf-7ba9667c23217f8f",
+      "locator": {
+        "page": 1,
+        "quote": "",
+        "section": ""
+      },
+      "expected_structural": {
+        "source_exists": true,
+        "version_current": true,
+        "locator": "EMPTY_QUOTE"
+      },
+      "provisional_semantic_expectation": "AUTHOR_REVIEW_REQUIRED",
+      "annotation_status": "AI_DRAFTED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "id": "DEV-06",
+      "kind": "source_version_change",
+      "claim": "The study recruited 82 people.",
+      "source_id": "kross2013-pone0069841",
+      "source_version": "prior-local-import-version",
+      "locator": {
+        "page": 1,
+        "quote": "Eighty-two people",
+        "section": "Methods / Participants"
+      },
+      "expected_structural": {
+        "source_exists": true,
+        "version_current": false,
+        "locator": "EXACT_QUOTE_AT_PAGE",
+        "dependency_state": "STALE_REQUIRES_REVIEW"
+      },
+      "provisional_semantic_expectation": "AUTHOR_REVIEW_REQUIRED",
+      "annotation_status": "AI_DRAFTED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    }
+  ]
+}
